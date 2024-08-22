@@ -1,0 +1,64 @@
+body {
+  margin: 0%;
+  background-color: rgb(194, 200, 202);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#topbar {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top:0;
+  left:0;
+  background-color: rgb(72, 72, 153);
+}
+
+img#topbar_logo {
+  margin: 0%;
+  height: 100%;
+  width: auto;
+  
+}
+
+p.tab {
+  color: rgb(209, 209, 134);
+  font-size: 22px;
+  height: 200%;
+  position: absolute;
+  margin: 0;
+  top: 7px;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+p.tab:hover {
+  color: rgb(252, 229, 119);
+}
+
+span#wrapper {
+  position: absolute;
+  left: 12%;
+}
+
+p.tab#about_tab {
+  left: 280px;
+  width: 100px;
+}
+
+p.tab#articles_tab {
+  left: 130px;
+}
+
+div.tab_div {
+  display: none;
+  position: relative;
+  top: 40px;
+  width:100%;
+  height:auto;
+}
+
+div.tab_div.current_tab {
+  display: inline;
+}
