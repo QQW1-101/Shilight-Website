@@ -1,0 +1,66 @@
+#topbar {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top:0;
+  left:0;
+  background-color: rgb(72, 72, 153);
+  z-index: 2;
+}
+
+img#topbar_logo {
+  margin: 0%;
+  height: 100%;
+  width: auto;
+}
+
+.tab#title {
+  font-family: 'Times New Roman', Times, serif;
+  left: 75px;
+  top: 7px;
+}
+
+.tab {
+  color: rgb(207, 207, 53);
+  font-size: 22px;
+  height: 200%;
+  position: absolute;
+  margin: 0;
+  background-color: transparent;
+  outline: 0;
+  box-shadow: 0;
+  border: 0;
+  top: 5px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.tab:not(#title) {
+  cursor: pointer;
+}
+
+.tab:not(#title):hover {
+  color: rgb(252, 229, 119);
+}
+
+span#wrapper {
+  position: absolute;
+  left: 30%;
+}
+
+.tab#articles_tab {
+  left: 130px;
+}
+
+div.tab_div {
+  display: none;
+  position: relative;
+  top: 40px;
+  width:100%;
+  height:auto;
+}
+
+div.tab_div.active {
+  display: block;
+}

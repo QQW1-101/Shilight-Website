@@ -1,0 +1,35 @@
+body {
+  margin: 0%;
+  background-color: rgb(44, 44, 80);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#homepage_background {
+  width:100%;
+  height:auto;
+  opacity: 0.3;
+  position: absolute;
+}
+
+#home_tab_div {
+  background-color: rgb(72, 72, 116);
+}
+
+.homepage_text {
+  position: absolute;
+  width:90%;
+  margin:0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(236, 234, 201);
+}
+
+#homepage_title {
+  font-size: 70px;
+  top: 90px;
+}
+
+#homepage_subtitle {
+  font-size: 30px;
+  top: 200px;
+}

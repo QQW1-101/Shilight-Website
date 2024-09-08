@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+    <title>Shilight Gazette</title>
+  </head>
+  <body>
+    <div id="topbar">
+      <img id="topbar_logo" src="logo.png">
+      <p id="title" class="tab">Shilight Gazette</p>
+      <span id="wrapper">
+        <button id="home_tab" class="tab" onclick="switchTab(event,'home_tab_div')">Home</button>
+        <button id="articles_tab" class="tab" onclick="switchTab(event,'articles_tab_div')">Blog</button>
+      </span>
+    </div>
+
+    <div id="home_tab_div" class="tab_div active">
+      <p>lorem ipsum</p>
+    </div>
+
+    <div id="articles_tab_div" class="tab_div">
+      <p>dolor sit amet</p>
+    </div>
+
+    <script src="navigation.js"></script>
+  </body>
+</html>
